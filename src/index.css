@@ -1,0 +1,57 @@
+body{
+  background-color: rgb(71, 58, 141);
+}
+
+/* ResultComponent.css */
+.result {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.score-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.score {
+  color: #ff4d4d;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.details h5 {
+  margin: 5px;
+  font-weight: bold;
+}
+
+.number h5 {
+  margin: 5px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.play,
+.home-result {
+  background-color: #2196f3;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 600px;
+}
+
+.play:hover,
+.home-result:hover {
+  background-color: #0b7dda;
+}
